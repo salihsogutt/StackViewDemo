@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var imageProfile: UIImageView!
     
+    //ScrollView Branch
+    
     @IBOutlet weak var imageCategories1: UIImageView!
     @IBOutlet weak var imageCategories2: UIImageView!
     @IBOutlet weak var imageCategories3: UIImageView!
