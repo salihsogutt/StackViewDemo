@@ -10,8 +10,6 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var imageProfile: UIImageView!
     
-    //ScrollView Branch
-    
     @IBOutlet weak var imageCategories1: UIImageView!
     @IBOutlet weak var imageCategories2: UIImageView!
     @IBOutlet weak var imageCategories3: UIImageView!
@@ -45,9 +43,9 @@ class ViewController: UIViewController {
         imageArtists3.addRadius(10)
         
         imageTrending1.makeCircle()
-        imageTrending2.makeCircle()
-        imageTrending3.makeCircle()
-        imageTrending4.makeCircle()
+//        imageTrending2.makeCircle()
+//        imageTrending3.makeCircle()
+//        imageTrending4.makeCircle()
     }
 }
 
